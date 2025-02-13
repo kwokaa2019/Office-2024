@@ -2,13 +2,13 @@
 
 32 Bit
 
-C:\Windows\system32>cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
+cd /d %ProgramFiles(x86)%\Microsoft Office\Office16
 The system cannot find the path specified.
 
 
 64 Bit
 
-C:\Windows\system32>cd /d %ProgramFiles%\Microsoft Office\Office16
+cd /d %ProgramFiles%\Microsoft Office\Office16
 
 
 for /f %x in ('dir /b ..\root\Licenses16\ProPlus2024VL_KMS*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
